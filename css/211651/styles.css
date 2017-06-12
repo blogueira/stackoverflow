@@ -8,10 +8,10 @@
   position: fixed;
   top: 50%;
   left: 50%;
-  width: 600px;
+  width: 480px;
   height: 200px;
   margin-top: -100px;
-  margin-left: -300px;
+  margin-left: -240px;
 
     /* position: absolute; */
     /* width: 300px; */
@@ -22,7 +22,7 @@
     left: 50%;
     margin: -100px 0 0 -150px; */
     flex-direction: row;
-    background: yellow;
+    background-color: #21374c;
     display: flex;
    /*  width: 400px; */
     /* flex-flow: row wrap; */
@@ -38,33 +38,36 @@
 .login-geral {
     height: 11em;
     flex-direction: column;
-    background: red;
+    /* background: red; */
     flex: 20%;
 }
 
 .login-texto {
     height: 11em; 
     flex-flow: row wrap;
-    background: red;
+     /* background: red; */
     flex: 60%;
 }
 
 .login-campos-full {
+        padding: 0rem;
+    margin: 0rem;
     flex-direction: column;
-    background: purple;
+     /* background: purple;  */
     height: 60px;
     flex: 1 1 100%;
 }
 
 .login-campos-half {
+    padding: 0rem;
+    margin: 0rem;
     flex-direction: column;
-    background: purple;
-    height: 80px;
-    flex: 1 1 30%;
+     /* background: purple;  */
+    height: 110px;
+   /* flex: 1 1 30%; */
 }
 
-
 .login-caixa {
-    background: green;
+     /* background: white; */
     flex: 50%;
 }
