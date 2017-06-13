@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400);
+
+.jumbotron {
+    width: 700px;
+}
+
+
+.jumbotron h1 {
+    font-size: 1.6em;
+}
+
+.jumbotron p {
+    font-size: 1em;
+}
+
+.jumbotron h1 {
+  text-align: center;
+  color: #AAA;
+  font-size: 2em;
+
+}
+
+.jumbotron p {
+  text-align: center;
+  color: #AAA;
+  font-size: 1em;
+  
+}
+
+.jumbotron .container {
+  width: 600px;
+}
+
+
+
+.jumbotron {
+    background-size: auto auto;
+    padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 0.5em;
+
+
+}
+ 
+  .input-group-addon {
+    min-width:41px;
+    text-align:left;
+}
+
+  */
+
+    /* background-color: #21374c; */

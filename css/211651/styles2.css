@@ -1,0 +1,39 @@
+.container {
+  background-color: #21374c;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 480px;
+  height: 200px;
+  margin-top: -100px;
+  margin-left: -240px;
+  display: flex;
+}
+
+.janela {
+    display: inherit;
+    flex-flow: row wrap;
+    width: 300px;
+}
+
+[class*="moldura-"] {
+    margin: .25rem;
+    height: 2rem;
+    padding: .25rem;
+    color: white;
+}
+[class*="-esquerda"] {
+    margin-right:auto;
+    margin-left:0; 
+}
+
+[class*="-direita"] {
+    margin-left:auto;
+    margin-right:0; 
+}
+.moldura-logo {
+    width: 150px;
+}
+.moldura-cheia {
+  flex: 1 1 100%;
+}
